@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="15dp">
+
+
+
+    <Button
+        android:id="@+id/button_01"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="click"/>
+
+    <Button
+        android:id="@+id/button_scroller"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="scroller"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/button_list"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="自写列表"
+        android:layout_marginTop="15dp"/>
+
+
+
+
+
+<!--    <ListView-->
+<!--        android:id="@+id/listview_01"-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="fill_parent">-->
+<!--    </ListView>-->
+
+
+
+        //顶部banber
+
+
+
+<!--    <ScrollView-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="fill_parent">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="vertical">-->
+
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="fill_parent"-->
+<!--                android:layout_height="200dp"-->
+<!--                android:gravity="center"-->
+<!--                android:background="#ff4800">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="我是一只鱼，我的记忆只有7秒">-->
+<!--                </TextView>-->
+
+<!--            </LinearLayout>-->
+
+<!--            //4个按钮-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="fill_parent"-->
+<!--                android:layout_height="100dp"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:layout_marginTop="10dp">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/view1_01"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="fill_parent"-->
+<!--                    android:background="#FF3E96"-->
+<!--                    android:layout_weight="1">-->
+
+
+<!--                </ImageView>-->
+<!--                <ImageView-->
+<!--                    android:id="@+id/view1_02"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="fill_parent"-->
+<!--                    android:background="#9ACD32"-->
+<!--                    android:layout_weight="1">-->
+
+
+<!--                </ImageView>-->
+<!--                <ImageView-->
+<!--                    android:id="@+id/view1_03"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="fill_parent"-->
+<!--                    android:background="#8B4726"-->
+<!--                    android:layout_weight="1">-->
+
+
+<!--                </ImageView>-->
+<!--                <ImageView-->
+<!--                    android:id="@+id/view1_04"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="fill_parent"-->
+<!--                    android:background="#FF8C00"-->
+<!--                    android:layout_weight="1">-->
+
+
+<!--                </ImageView>-->
+
+
+
+<!--            </LinearLayout>-->
+<!--            <RelativeLayout-->
+<!--                android:layout_width="fill_parent"-->
+<!--                android:layout_height="200dp">-->
+
+<!--                <View-->
+<!--                    android:id="@+id/view_01"-->
+<!--                    android:layout_width="100dp"-->
+<!--                    android:layout_height="100dp"-->
+<!--                    android:background="#ff4800">-->
+<!--                </View>-->
+
+<!--                <View-->
+<!--                    android:layout_width="100dp"-->
+<!--                    android:layout_height="100dp"-->
+<!--                    android:background="#FF3E96"-->
+<!--                    android:layout_below="@+id/view_01">-->
+<!--                </View>-->
+
+
+
+<!--            </RelativeLayout>-->
+
+
+
+
+
+<!--        </LinearLayout>-->
+
+
+
+
+
+
+
+<!--    </ScrollView>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  <ScrollView-->
+<!--      android:layout_width="match_parent"-->
+<!--      android:layout_height="match_parent">-->
+
+
+<!--      <LinearLayout-->
+<!--          android:id="@+id/LinearLayout1"-->
+<!--          android:layout_width="match_parent"-->
+<!--          android:layout_height="match_parent"-->
+<!--          android:orientation="vertical">-->
+
+<!--          <LinearLayout-->
+<!--              android:layout_width="match_parent"-->
+<!--              android:layout_height="wrap_content"-->
+<!--              android:orientation="vertical">-->
+
+
+<!--              <LinearLayout-->
+<!--                  android:layout_width="match_parent"-->
+<!--                  android:layout_height="200dp"-->
+<!--                  android:background="#ff4800"-->
+<!--                  android:orientation="horizontal">-->
+
+<!--                  <ImageView-->
+<!--                      android:layout_width="0dp"-->
+<!--                      android:layout_height="fill_parent"-->
+<!--                      android:layout_weight="1"-->
+<!--                      android:background="#876976" />-->
+
+<!--                  <ImageView-->
+<!--                      android:layout_width="0dp"-->
+<!--                      android:layout_height="fill_parent"-->
+<!--                      android:layout_weight="1"-->
+
+<!--                      android:background="#908662" />-->
+
+<!--                  <ImageView-->
+<!--                      android:layout_width="0dp"-->
+<!--                      android:layout_height="fill_parent"-->
+<!--                      android:layout_weight="1"-->
+<!--                      android:id="@+id/button_1"-->
+<!--                      android:background="#345222" />-->
+
+
+<!--              </LinearLayout>-->
+
+
+
+
+
+<!--          </LinearLayout>-->
+
+
+
+<!--          <LinearLayout-->
+<!--              android:layout_width="fill_parent"-->
+<!--              android:layout_height="150dp"-->
+<!--              android:background="#F3F2F2"-->
+<!--              />-->
+
+<!--          <LinearLayout-->
+<!--              android:layout_width="match_parent"-->
+<!--              android:layout_height="300dp"-->
+<!--              android:background="#ff4800"-->
+<!--              />-->
+
+<!--      </LinearLayout>-->
+
+
+<!--  </ScrollView>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Hello World!"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+</LinearLayout>
