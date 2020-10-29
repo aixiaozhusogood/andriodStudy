@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
@@ -55,6 +56,14 @@ public class LineAdapyver extends RecyclerView.Adapter<LineAdapyver.LinerViewHol
              Glide.with(mContext).load("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1603798082755&di=7042583918fa9c402d1caf779d377b58&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201804%2F10%2F20180410150122_xuirk.jpg").into(holder.image);
          }
 
+
+
+
+
+        ViewGroup.LayoutParams params = holder.three.getLayoutParams();
+         params.height = 0;
+
+
     }
 
 //    @Override
@@ -73,10 +82,22 @@ public class LineAdapyver extends RecyclerView.Adapter<LineAdapyver.LinerViewHol
 
         private TextView textView;
         private ImageView image;
+
+
+        private LinearLayout fist;
+        private LinearLayout second;
+        private LinearLayout three;
+
+
+
         public LinerViewHolder(View itemview){
             super(itemview);
             textView = itemview.findViewById(R.id.test_10);
             image = itemview.findViewById(R.id.image_01);
+            fist = itemview.findViewById(R.id.first_view);
+            second = itemview.findViewById(R.id.second_view);
+            three = itemview.findViewById(R.id.three_view);
+
 
         }
 
